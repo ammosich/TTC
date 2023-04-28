@@ -1,0 +1,99 @@
+@import url(reset.css);
+
+.page {
+  height: 3000px;
+  background-image: url(https://c1.staticflickr.com/6/5173/5436446554_9244788c36_b.jpg);
+  position: static;
+}
+
+.rocket {
+  background-image: url(https://www.freeiconspng.com/uploads/rocket-ship-png-1.png);
+  background-size: contain;
+  width: 100px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: static;
+}
+.mars {
+  background-image: url(http://pngimg.com/uploads/mars_planet/mars_planet_PNG11.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  position: static;
+
+}
+
+.venus {
+  background-image: url(https://www.pngrepo.com/download/285152/planet.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  position: static;
+ }
+
+ .earth {
+ 	background-image: url(earth.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	position: static;
+ }
+
+.jupiter {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/planets-1/512/Jupiter-256.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	position: static;
+}
+
+.saturn {
+	background-image: url(saturn.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	position: static;
+}
+
+.uran {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/planets-1/512/Neptune-256.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	position: static;
+}
+
+
+.mercury {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/planets-1/512/Mercury-256.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	position: static;
+}
+
+.sun {
+	background-image: url(sun.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	background-position: top;
+	position: static;
+}
+
+.neptun {
+	background-image: url(https://cdn2.iconfinder.com/data/icons/solar_system_png/512/Neptune.png);
+	background-size: cover;
+	width: 400px;
+	height: 400px;
+	background-position: center;
+	position: static;
+}
