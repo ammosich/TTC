@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  height: 130px;
+  background-color: #de7d7d;
+}
+
+.menu,
+.title {
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.menu {
+  margin-left: 65px;
+  display: flex;
+
+  list-style: none;
+}
+
+.title {
+  cursor: pointer;
+  display: flex;
+  margin-right: 73px;
+}
+
+.menu-item {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.page {
+  height: 807px;
+  background-image: url("poster.jpg");
+  background-size: cover;
+}
+
+.container {
+  margin: 54px 52px;
+}
+
+.page-form {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 86px;
+  top: 195px;
+
+  background: #e17e7e;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+}
+
+.page-form label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"] {
+  margin-top: 31px;
+  margin-bottom: 23px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+
+.page-footer {
+  height: 90px;
+  left: 0px;
+  top: 937px;
+
+  background: #e17e7e;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type-btn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  top: 519px;
+  left: 60px;
+  background: #e17e7e;
+  border: 5px solid #ffffff;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+@media (max-width: 428px) {
+  .page-header {
+    height: 49px;
+  }
+
+  .page-header .menu-item {
+    display: none;
+  }
+
+  .page-form {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 330px;
+    height: 459px;
+    left: 39px;
+    top: 129px;
+
+    background: #e17e7e;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+  }
+
+  .type-btn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 7px;
+    top: 558px;
+
+    background: #e17e7e;
+    border: 5px solid #ffffff;
+    border-radius: 50px;
+  }
+
+  .page-footer {
+    height: 78px;
+  }
+}
