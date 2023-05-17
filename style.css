@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+@keyframes orbit {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+.page {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://c1.staticflickr.com/6/5173/5436446554_9244788c36_b.jpg);
+	display: flex;
+	position: relative;
+	z-index: 0;
+}
+.sun {
+	width: 300px;
+	height: 300px;
+	background-image: url(sun.png);
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+}
+.earth {
+	position: absolute;
+	background-image: url(earth.png);
+	background-color: blue;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    border-radius: 50%;
+    animation-name: orbit;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+	z-index: 10000000;
+
+}
