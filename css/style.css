@@ -1,0 +1,9 @@
+.exercise{
+	border:1px solid #000;
+}
+
+h1{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 10px;
+}
