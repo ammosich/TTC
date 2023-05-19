@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+h1{
+  font-size: 34px;
+  font-weight: 700;
+}
+nav{
+  width: 100wv;
+}
+nav ul{
+  
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  padding: 15px 0px;
+  li{
+    font-size: 18px;
+  }
+  a{
+    transition:all 0.4s ease 0s;
+  }
+  a:hover{
+    color: gray;
+  }
+}
+.main-img{
+  text-align: center;
+  margin-top: 30px;
+  img{
+    border-radius: 15px;
+    height: 260px;
+    filter: grayscale(60%);
+    transition:all 0.3s ease 0s;
+    cursor: pointer;
+  }
+  img:hover{
+    filter: grayscale(1%);
+  }
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+section, footer{
+  margin-top: 15px;
+  h2{
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 10px;
+    margin: 15px 0;
+    border-radius: 7px;
+  }
+  p{
+    font-size: 17px;
+    line-height: 24px;
+    padding: 0px 0px 0px 0px;
+  }
+  .links{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    li{
+      background-color: black;
+      padding: 10px;
+      border-radius: 15px;
+      a{
+        color: white;
+        transition:all 0.5s ease 0s;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  nav ul{
+    gap: 15px;
+  }
+}
+@media (max-width: 425px) {
+  nav ul{
+    gap: 10px;
+  }
+}
